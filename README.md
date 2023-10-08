@@ -1,3 +1,10 @@
+# Features
+
+- Add and remove items from the practice list
+- For each item, I want to be able to record when I practised it
+- For each item, display the last 7 days of practice (yes/no)
+- Allow sorting by number of practices in the last 7 days or by name
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
