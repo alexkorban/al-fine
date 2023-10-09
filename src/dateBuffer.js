@@ -10,7 +10,7 @@ const bufferSize = 7
 function blank(date, blankValue) {
   return {
     date,
-    practices: [true, false, true, false, false, false, true], //R.map(R.always(blankValue), R.range(0, 7)),
+    practices: R.map(R.always(blankValue), R.range(0, 7)),
   }
 }
 
